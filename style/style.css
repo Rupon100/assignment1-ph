@@ -206,16 +206,196 @@ nav button {
     width: 100%;
     height: 100%;
 }
-.reverse-flex {
-
-}
 /*---whyWebDev section end---*/
 
 
 /*---inspiration section start---*/
-
+.inspiration {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.inspiration p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.video {
+    width: 100%;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+.video iframe {
+    border-radius: 16px;
+}
 /*---inspiration section end---*/
 
+/*---inspiration section start---*/
+.target {
+    margin: 0 auto;
+    margin-top: 149px;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.target h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.target p {
+    margin: 24px 0;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.target-box {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.target-box-content {
+    flex-basis: 33%;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-box-content a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    text-decoration-line: underline;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.target-box-content h3{
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.target-box-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.second-skill {
+    background: rgba(0, 76, 232, 0.05);
+}
+.third-skill {
+    background: rgba(255, 223, 0, 0.05);
+}
+/*---inspiration section end---*/
 
+/*---feedback start---*/
+.support {
+    margin:  0 auto;
+    max-width: 1140px;
+    padding: 64px 48px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.support p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 39px;
+}
+.input {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.input input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    padding: 19px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.input button {
+    border-radius: 8px;
+	background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 17px 20px;
+}
 
+/*---feedback end---*/
+
+/*---footer section---*/
+#footer {
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 0 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
 
