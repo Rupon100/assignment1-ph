@@ -1,0 +1,112 @@
+/*---google fonts---*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace; */
+
+
+
+
+/*---universal selector----*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*---universal selector----*/
+
+/*---shared style start---*/
+.btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 17px 24px;
+}
+/*---shared style end---*/
+
+/*--- header section  start ---*/
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+.logo {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+}
+nav button {
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;		
+    opacity: 0.8;  
+    background: transparent;
+    cursor: pointer;
+}
+.banner {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banenr-text {
+    max-width: 998px;
+    max-height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.banenr-text img {
+    max-width: 173.03px;
+    max-height: 228.9px;
+    background-size: cover;
+    background-position: center;
+}
+.banenr-text h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+}
+.banenr-text p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+}
+.banenr-text button {
+    border: none;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+.banenr-text button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/*--- header section end ---*/
+
+
+
+
+
+
