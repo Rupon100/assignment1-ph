@@ -1,9 +1,9 @@
 /*---google fonts---*/
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Azeret Mono", monospace; */
-
-
-
+ 
+body {
+    font-family: "Azeret Mono", monospace;
+}
 
 /*---universal selector----*/
 * {
@@ -16,7 +16,6 @@
 /*---shared style start---*/
 .btn {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -37,7 +36,6 @@ header nav {
 }
 .logo {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
     line-height: 33px;
@@ -79,7 +77,6 @@ nav button {
 }
 .banenr-text h1 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -87,7 +84,6 @@ nav button {
 }
 .banenr-text p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -107,7 +103,6 @@ nav button {
 
 /*---whyWebDev section start---*/
 .whyWebDev {
-    /* border: 2px solid red; */
     background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
     margin: 74px auto;
@@ -118,7 +113,6 @@ nav button {
     align-items: center;
 }
 .whyWebDev-box {
-    /* border: 1px solid green; */
     width: 946px;
     margin: 0 auto;
     display: flex;
@@ -135,14 +129,12 @@ nav button {
 }
 .text h3 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
 }
 .text p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -153,10 +145,8 @@ nav button {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    /* border: 2px solid blueviolet; */
 }
 .content-box {
-    /* border: 2px solid rgb(58, 62, 64); */
     width: 850px;
     padding: 48px;
     display: flex;
@@ -172,7 +162,6 @@ nav button {
 }
 .content-text h3 {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -180,7 +169,6 @@ nav button {
 .content-text p {
     margin-top: 16px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -220,7 +208,6 @@ nav button {
 }
 .inspiration h3 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
@@ -228,7 +215,6 @@ nav button {
 }
 .inspiration p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -259,7 +245,6 @@ nav button {
 }
 .target h3 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
@@ -267,7 +252,6 @@ nav button {
 .target p {
     margin: 24px 0;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -288,7 +272,6 @@ nav button {
 }
 .target-box-content a {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     text-decoration-line: underline;
     font-size: 16px;
     font-weight: 700;
@@ -329,8 +312,7 @@ nav button {
     align-items: center;
 }
 .support h2 {
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+    color: rgb(255, 255, 255); 
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
@@ -338,7 +320,6 @@ nav button {
 }
 .support p {
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -364,7 +345,6 @@ nav button {
     border-radius: 8px;
 	background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -388,7 +368,6 @@ nav button {
 }
 #footer p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
