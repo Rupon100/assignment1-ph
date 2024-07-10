@@ -21,6 +21,14 @@ body {
     line-height: 23px;
     padding: 17px 24px;
 }
+.para {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+}
 /*---shared style end---*/
 
 /*--- header section  start ---*/
@@ -82,14 +90,6 @@ nav button {
     line-height: 68px;
     text-align: center;
 }
-.banenr-text p {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
-    text-align: center;
-}
 .banenr-text button {
     border: none;
     border-radius: 8px;
@@ -134,11 +134,6 @@ nav button {
     line-height: 37px;
 }
 .text p {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
     margin-bottom: 48px;
 }
 .content {
@@ -168,11 +163,7 @@ nav button {
 }
 .content-text p {
     margin-top: 16px;
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
+    text-align: left;
 }
 .content-text button {
     margin-top: 32px;
@@ -196,7 +187,6 @@ nav button {
 }
 /*---whyWebDev section end---*/
 
-
 /*---inspiration section start---*/
 .inspiration {
     margin: 0 auto;
@@ -214,11 +204,6 @@ nav button {
     margin-bottom: 24px;
 }
 .inspiration p {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
     margin-bottom: 48px;
 }
 .video {
@@ -233,7 +218,7 @@ nav button {
 }
 /*---inspiration section end---*/
 
-/*---inspiration section start---*/
+/*---target section start---*/
 .target {
     margin: 0 auto;
     margin-top: 149px;
@@ -251,11 +236,7 @@ nav button {
 }
 .target p {
     margin: 24px 0;
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
+    text-align: left;
 }
 .target-box {
     margin-top: 48px;
@@ -293,7 +274,7 @@ nav button {
 .third-skill {
     background: rgba(255, 223, 0, 0.05);
 }
-/*---inspiration section end---*/
+/*---target section end---*/
 
 /*---feedback start---*/
 .support {
@@ -320,10 +301,6 @@ nav button {
 }
 .support p {
     color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
     margin-bottom: 39px;
 }
 .input {
@@ -350,7 +327,6 @@ nav button {
     line-height: 23px;
     padding: 17px 20px;
 }
-
 /*---feedback end---*/
 
 /*---footer section---*/
